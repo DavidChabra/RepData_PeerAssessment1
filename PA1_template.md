@@ -57,7 +57,7 @@ hist(total_data$total,
      main = "total steps by day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 Finally we will calculate the mean followed by the median of total steps.
 
@@ -101,7 +101,7 @@ plot(interval_means$interval,
      main = "mean steps for interval")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
 
 Finally we will use the max() function to find which value for interval contains the highest number of average steps.
 
@@ -162,7 +162,7 @@ hist(total_new_data$total,
      main = "total steps by day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)<!-- -->
+![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png)
 
 ```r
 mean(total_new_data$total)
@@ -239,6 +239,6 @@ plot(weekend$interval,
      main = "weekend")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png)
 
 
